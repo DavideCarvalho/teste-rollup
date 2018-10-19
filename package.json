@@ -1,0 +1,18 @@
+{
+  "name": "esmodule_test",
+  "version": "1.0.0",
+  "main": "build/how-long-till-lunch.cjs.js",
+  "module": "build/how-long-till-lunch.esm.js",
+  "browser": "build/how-long-till-lunch.umd.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.1.0",
+    "hybrids": "^1.4.1",
+    "rollup-plugin-babel": "^4.0.3",
+    "rollup-plugin-commonjs": "^9.2.0",
+    "rollup-plugin-node-resolve": "^3.4.0",
+    "rollup-plugin-uglify": "^6.0.0",
+    "systemjs": "^2.0.2"
+  }
+}

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <my-component></my-component>
+  <script type="systemjs-packagemap">
+  {
+    "packages": {
+      "hybrids": "./hybrids/dist/hybrids.js"
+    }
+  }
+  </script>
+  <script src="./dist/system.js"></script>
+  <script>
+    System.import('/build/how-long-till-lunch.umd.js');
+  </script>
+</body>
+</html>
