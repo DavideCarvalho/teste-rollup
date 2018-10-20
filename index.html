@@ -17,7 +17,11 @@
   </script>
   <script src="./dist/system.js"></script>
   <script>
-    System.import('/build/how-long-till-lunch.umd.js');
+    System
+    .import('/hybrids/dist/hybrids.js')
+    .then(() => {
+      System.import('/build/how-long-till-lunch.umd.js');
+    });
   </script>
 </body>
 </html>
